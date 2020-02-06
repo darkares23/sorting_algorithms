@@ -34,10 +34,10 @@ void radix_sort(int *array, size_t size)
 			for (i = 0; i < (int)size; i++)
 			{
 				if ((array[i] / x) % 10 == count_1)
-					{
-						tmp_array[count_2] = array[i];
-						count_2++;
-					}
+				{
+					tmp_array[count_2] = array[i];
+					count_2++;
+				}
 			}
 			count_1++;
 		}
