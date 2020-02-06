@@ -33,5 +33,7 @@ void sort_right(listint_t *head, listint_t **list);
 void sort_left(listint_t *head, listint_t **list);
 void counting_sort(int *array, size_t size);
 void radix_sort(int *array, size_t size);
-
+void h_helper(int *array, size_t size, int lo, int hi);
+int h_partition(int *array, size_t size, int lo, int hi);
+void quick_sort_hoare(int *array, size_t size);
 #endif /* _SORT_H */
